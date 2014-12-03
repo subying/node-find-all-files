@@ -1,5 +1,5 @@
 var findFiles = require('./index.js')
-	,files = findFiles('/')
+	,files = findFiles('./')
 ;
 
 console.log(files);
